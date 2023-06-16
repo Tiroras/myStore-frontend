@@ -1,0 +1,40 @@
+@import '@/styles/colors.scss';
+
+.cartItem {
+  border-bottom: 2px solid $black2;
+  display: flex;
+  width: 250px;
+}
+
+.imageWrapper {
+  line-height: 0;
+}
+
+.info {
+  width: 170px;
+}
+
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.purchaseInfo {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.productCount {
+  display: flex;
+  justify-content: space-around;
+}
+
+.removeWrapper {
+  text-align: right;
+}
+
+.button {
+  cursor: pointer;
+}

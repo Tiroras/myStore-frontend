@@ -1,0 +1,43 @@
+@import '@/styles/colors.scss';
+
+.productItem {
+  display: block;
+  background-color: $white;
+  border-radius: 5px;
+  box-shadow: 1px 1px .4em black, 1px 1px .4em black;
+  width: 250px;
+}
+
+.imageWrapper {
+  position: relative;
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.info {
+  padding: 10px 5px;
+}
+
+.name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bottomBlock {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.category {
+  color: $blue3;
+  font-weight: 500;
+}

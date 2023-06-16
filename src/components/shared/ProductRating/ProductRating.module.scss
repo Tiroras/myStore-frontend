@@ -1,0 +1,18 @@
+@import '@/styles/colors.scss';
+
+.productRating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ratingWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  font-size: 18px;
+  margin: 0 0 0 5px;
+  color: $orange2;
+}

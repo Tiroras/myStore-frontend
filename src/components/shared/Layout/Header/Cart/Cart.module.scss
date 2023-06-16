@@ -1,0 +1,56 @@
+@import '@/styles/colors.scss';
+
+.cart {
+  position: absolute;
+  background-color: $black;
+  top: 70px;
+  right: 10px;
+  z-index: 100;
+  border-radius: 4px;
+  box-shadow: 1px 1px .4em black, 1px 1px .4em black;
+  width: 270px;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $orange;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: $orange2;
+  }
+}
+
+.cartHeader {
+  padding: 10px;
+  border-bottom: 1px solid $grey3;
+}
+
+.cartMain {
+  padding: 10px 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.empty {
+  text-align: center;
+}
+
+.cartFooter {
+  padding: 10px;
+  border-top: 1px solid $grey3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalPrice {
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+@import '@/styles/colors.scss';
+
+.wrapper {
+  position: relative;
+}
+
+.count {
+  background-color: $orange;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid $white;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  width: 14px;
+  height: 14px;
+}

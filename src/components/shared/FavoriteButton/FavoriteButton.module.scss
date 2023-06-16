@@ -1,0 +1,9 @@
+@import '@/styles/colors.scss';
+
+.favorite {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  line-height: 0;
+  cursor: pointer;
+}

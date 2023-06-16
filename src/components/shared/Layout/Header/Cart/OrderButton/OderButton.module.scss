@@ -1,0 +1,7 @@
+.order {}
+
+.disabled {
+  & button {
+    cursor: not-allowed;
+  }
+}

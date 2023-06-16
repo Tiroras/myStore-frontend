@@ -1,0 +1,16 @@
+@import '@/styles/colors.scss';
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background-color: $white;
+  margin-right: 0 !important;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.button {
+  border-radius: 0 4px 4px 0 !important;
+}

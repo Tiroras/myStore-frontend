@@ -1,0 +1,50 @@
+@import '@/styles/colors.scss';
+
+.sidebar {
+  background-color: $black;
+  padding: 0 50px;
+  font-weight: 500;
+}
+
+.menuList {
+  list-style-type: none;
+}
+
+.menuItemHeader {
+  margin: 20px 0 0;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  
+  & span {
+    line-height: 0;
+  }
+}
+
+.nav {}
+
+.categories {
+  font-size: 18px;
+  margin: 10px 20px;
+  list-style-type: none;
+}
+
+.category {
+  margin: 10px 0;
+
+  &:hover {
+    background-color: $black3;
+    transition: 200ms;
+  }
+}
+
+.logoutWrapper {}
+
+.logout {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 80px;
+  margin: 20px 0 0;
+}
